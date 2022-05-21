@@ -1,0 +1,34 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        //Add 2 numbers with using vars
+        int num1 = 78;
+        int num2 = 97;
+        int sum;
+        sum = num1+num2;
+        System.out.println(sum);
+        
+         //Subtract 2 numbers with using vars
+        int n1 = 78;
+        int n2 = 97;
+       System.out.println(n2-n1);
+        
+         //Add 3 numbers with using vars
+        int a = 78;
+        int b = 97;
+        int c = 88;
+        int total = a+b+c;
+        System.out.println(total);
+        
+        //Multiply 5 numbers with using vars
+        int v = 8;
+        int w = 4;
+        int x = 5;
+        int y = 3;
+        int z = 3;
+        int mult = v*w*x*y*z;
+        System.out.println(mult);
+        
+        
+    }
+}

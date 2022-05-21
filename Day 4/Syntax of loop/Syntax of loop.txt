@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        //Print numbers from 1 to 3(n) manually
+	    System.out.print(1);
+        System.out.print(2);
+        System.out.print(3);
+        
+        System.out.println("\n-----");
+        
+        //Print numbers from 1 to 3(n) automatically using loop
+        for(int i=1;i<=3;i++){
+            System.out.print(i);
+        }
+                
+         
+    }
+}

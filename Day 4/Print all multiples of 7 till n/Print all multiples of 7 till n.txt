@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        //Method 1
+        for(int i=1;i<=n;i++){
+            if(i%7==0)
+                System.out.println(i);
+        }
+        System.out.println("Numbers printed...");
+        
+        System.out.println("-------------------");
+        
+        //Method 2
+        for(int i=1;i*7<=n;i=i+1){
+            System.out.println(i*7);
+        }
+        System.out.println("Numbers printed...");
+        
+    }
+}

@@ -1,0 +1,32 @@
+public class Main {
+    public static void main(String[] args) {
+        //int
+        int salary = 10000;
+        System.out.println(salary);
+        System.out.println("salary");
+        
+        salary = salary+50000;
+        System.out.println(salary);
+        
+        //double
+        double per = 63.5;
+        System.out.println(per);
+        
+        //float
+        float percentage = 65.6f;
+        System.out.println(percentage);
+        
+        //boolean
+        boolean flag = true; //true(1) or false(0)
+        System.out.println(flag);
+        
+        //char
+        //char sec ="A";
+        char sec = 'A';
+        System.out.println(sec);
+        
+        
+        
+        
+    }
+}

@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        int count3=0;
+        int count5 = 0;
+        int count35 = 0;
+        for(int i=1;i<=n;i++){
+            if(i%3==0)
+                count3++;
+            if(i%5==0)
+                count5++;
+            if(i%3==0 && i%5==0)
+                count35++;
+        }
+        //System.out.println("Numbers printed...");
+        System.out.println("Multiples of 3 are "+count3);
+        System.out.println("Multiples of 5 are "+count5);
+        System.out.println("Multiples of 3 and 5 are "+count35);
+        
+        
+        
+    }
+}

@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        //Adding two numbers
+        System.out.println(32+64);
+        
+        //Subtracting two numbers
+         System.out.println(32-3);
+        
+        //Mulilpy 2,3,4 nuumbers
+        System.out.println(32*3);
+        System.out.println(32*3*2);
+        System.out.println(32*3*8*9);
+        
+        
+    }
+}
