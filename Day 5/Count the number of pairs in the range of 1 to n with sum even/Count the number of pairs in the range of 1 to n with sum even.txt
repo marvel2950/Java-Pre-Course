@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        int n = 5;
+        
+        int count = 0;
+        for(int i=1;i<=n;i++){
+            for(int j=i+1;j<=n;j++){
+                int sum = i+j;
+                if(sum%2==0)
+                    count = count+1;    
+            }
+        }
+        System.out.println(count);
+    }
+}

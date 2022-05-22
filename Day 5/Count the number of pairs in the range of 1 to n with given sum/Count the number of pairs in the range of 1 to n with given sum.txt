@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        int n = 10;
+        
+        int givenSum = 3;
+        int count = 0;
+        for(int i=1;i<=n;i++){
+            for(int j=i+1;j<=n;j++){
+                int sum = i+j;
+                if(sum==givenSum)
+                    count = count+1;    
+            }
+        }
+        System.out.println(count);
+    }
+}
