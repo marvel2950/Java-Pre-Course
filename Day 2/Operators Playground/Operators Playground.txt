@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+
+        // Add 8 to the number 2345 and then divide it by 3. Now, the modulus of the quotient is taken with 5 and then multiply the resultant value by 5. and display the final result
+        
+        int ans = 2345+8;
+        System.out.println(ans);
+        ans = ans%3;
+        System.out.println(ans);
+        ans = ans*5;
+        System.out.println(ans);
+    }
+}

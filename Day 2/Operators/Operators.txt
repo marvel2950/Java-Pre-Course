@@ -1,0 +1,44 @@
+public class Main {
+    public static void main(String[] args) {
+        //Assignment operators
+        int a = 7;
+        int b = 14;
+        
+        int c;
+        //Arithmetic operators
+        c = a+b;
+        System.out.println(c);
+        c = a*b;
+        System.out.println(c);
+        c = b-a;
+        System.out.println(c);
+        c = b/a;
+        System.out.println(c);
+        c = 5%2;
+        System.out.println(c);
+        
+        //Increment and decrement operators
+        int p = 1;
+        //p = p+1;
+        p++;
+        System.out.println(p);
+        
+        //p = p-1;
+        p--;
+        System.out.println(p);
+        
+        int q = 7;
+        //Post
+        System.out.println(q++);
+        System.out.println(q);
+        
+        q = 7;
+        System.out.println(++q);
+        System.out.println(q);
+        
+        
+        
+        
+        
+    }
+}

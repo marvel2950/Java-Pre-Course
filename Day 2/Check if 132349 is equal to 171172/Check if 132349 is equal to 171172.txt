@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        // Check if 13*2349 is equal to 17*1172
+        int a = 13*2349;
+        int b = 17*1172;
+        System.out.println(a+" "+b);
+        System.out.println(a==b);
+    }
+}

@@ -1,0 +1,7 @@
+public class Main {
+    public static void main(String[] args) {
+        int dia = 15;
+        float rad = (float)dia/2;
+        System.out.println(rad*rad*3.14);
+    }
+}

@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(7<8);
+        System.out.println(7>8);
+        System.out.println(7<=8);
+        int i = 7;
+        int j = 7;
+        System.out.println(i>=j);
+        System.out.println(i==j);
+        System.out.println(i!=j);
+    }
+}
