@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char ch = sc.next().charAt(0);
+        int ascii = ch;
+        
+        if(ascii>=97 && ascii<=122)
+            System.out.println("Lowercase letter");
+        if(ascii>=65 && ascii<=90)
+            System.out.println("Uppercase letter");
+        
+    }
+}
